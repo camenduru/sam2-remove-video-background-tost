@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "SAM 2: Segment Anything in Images and Videos",
+      "author": "Nikhila Ravi, Valentin Gabeur, Yuan-Ting Hu, Ronghang Hu, Chaitanya Ryali, Tengyu Ma, Haitham Khedr, Roman Rädle, Chloe Rolland, Laura Gustafson, Eric Mintun, Junting Pan, Kalyan Vasudev Alwala, Nicolas Carion, Chao-Yuan Wu, Ross Girshick, Piotr Dollár, Christoph Feichtenhofer",
+      "paper": "https://ai.meta.com/research/publications/sam-2-segment-anything-in-images-and-videos",
+      "code": "https://github.com/facebookresearch/segment-anything-2",
+      "jupyter": "https://github.com/camenduru/sam2-remove-video-background-jupyter",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/sam2-remove-video-background.ipynb",
+      "tags": [
+        "Video to Video"
+      ],
+      "widget": "readme"
+    },
+    "input_video": {
+        "type": "string",
+        "description": "Input Video",
+        "widget": "textarea"
+    },
+    "bg_color": {
+      "type": "string",
+      "description": "Background Color",
+      "widget": "textarea"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
